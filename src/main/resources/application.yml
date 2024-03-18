@@ -1,0 +1,12 @@
+spring:
+  application:
+   name: jira-test
+
+jira:
+  secret: Here you enter the API Token you created in the security section of your Jira account
+  user-name: Enter the email account you use on Jira here
+  base-url: When you open a Jira account for yourself, you write the URL with the name you opened here as the URL   https://mike-tyson.atlassian.net
+  ticket-url: /rest/api/2/issue
+server:
+  port: 8083
+
